@@ -18,23 +18,23 @@
         <form id="favoriteThingsForm">
           <div class="form-group">
             <label for="coffee">What is your favorite coffee?</label>
-            <input id="coffee" class="form-control" type="text">
+            <input id="coffee" class="form-control" type="text" required>
           </div>
           <div class="form-group">
-            <label for="cake">What is your favorite coffee?</label>
-            <input id="cake" class="form-control" type="text">
+            <label for="cake">What is your favorite cake?</label>
+            <input id="cake" class="form-control" type="text" required>
           </div>
           <div class="form-group">
             <label for="color">What is your favorite color?</label>
-            <input id="color" class="form-control" type="text">
+            <input id="color" class="form-control" type="text" required>
           </div>
           <div class="form-group">
-            <label for="destination">Which is your favorite destination?</label>
-            <input id="destination" class="form-control" type="text">
+            <label for="destination">What is your favorite destination?</label>
+            <input id="destination" class="form-control" type="text" required>
           </div>
           <div class="form-group">
-            <label for="carModel">Which is your favorite car model?</label>
-            <input id="carModel" class="form-control" type="text">
+            <label for="carModel">What is your favorite car make?</label>
+            <input id="carModel" class="form-control" type="text" required>
           </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
@@ -42,10 +42,11 @@
       </div>
     </div>
     <div id="hidden">
-      <ul id="output">
-        <li></li>
-        <li></li>
-        <li></li>
+      <p>Here is an output of some of the things you like:</p>
+      <ul>
+        <li id="output01"></li>
+        <li id="output02"></li>
+        <li id="output03"></li>
       </ul>
     </div>
   </div>
