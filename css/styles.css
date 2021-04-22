@@ -1,0 +1,32 @@
+.container01 {
+  background-color: #7BE72C;
+  height: 300px;
+}
+
+#heading01 {
+  text-align: center;
+  color: white;
+  padding-top: 130px;
+}
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#hidden {
+  display: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container02 {
+  background-color: #A9BD9A;
+  height: 200px;
+}
+
+#footerText {
+  color: white;
+  text-align: center;
+  padding-top: 108px;
+}
